@@ -1,0 +1,13 @@
+@{ Layout = "_Layout"; }
+
+@model HairSalon.Models.Stylist
+
+<h5>New Stylist: </h5>
+
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(model => model.Name)
+    @Html.TextBoxFor(model => model.Name)
+
+    <input type="submit" value="Add new client" class="btn btn-default" />
+}

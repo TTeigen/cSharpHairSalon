@@ -1,0 +1,14 @@
+    
+@{ Layout = "_Layout"; }
+
+@using HairSalon.Models;
+@model HairSalon.Models.Stylist
+
+<h5>Stylist: @Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h5>
+<h6>Clients:</h6>
+@foreach(Client client in ViewBag.clientList){
+   <p>@client.Name</p>
+}
+
+<p>@Html.ActionLink("Add Client", "Create", "Client", new { id = Model.StylistId })</p>
+<p>@Html.ActionLink("Back to list of Stylists", "Index")</p>
