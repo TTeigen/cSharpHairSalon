@@ -6,7 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using HairSalon.Models;
 
-namespace HairSalon.Solution
+namespace HairSalon
 {
     public class Startup
     {
