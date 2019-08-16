@@ -24,7 +24,7 @@ User can add stylists, clients, and see which clients are seeing which stylist
 
 ## Setup/Installation Requirements
 
-* go to https://github.com/epicoding95/cSharpHairSalon
+* go to https://github.com/tteigen/cSharpHairSalon
 
 * Open up your terminal, go to the desktop screem and type in the command "git clone https://github.com/tteigen/cSharpHairSalon
 
@@ -35,7 +35,7 @@ User can add stylists, clients, and see which clients are seeing which stylist
 
 ## Technologies Used
 * c#
-* mySql
+* MySql
 * .net Core
 * Entity
 
